@@ -1,0 +1,191 @@
+{
+    "type": "Ext.panel.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "stretch",
+        "container|pack": "center",
+        "frame": true,
+        "height": null,
+        "width": null,
+        "designer|userClassName": "CarListings",
+        "designer|initialView": true,
+        "autoScroll": true,
+        "layout": "hbox",
+        "title": "Cleaning Viewer",
+        "titleAlign": "center"
+    },
+    "designerId": "b42694fb-b0f0-40f6-a06f-859ee4d0d2d1",
+    "cn": [
+        {
+            "type": "Ext.XTemplate",
+            "reference": {
+                "name": "tpl",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "implHandler": [
+                    ""
+                ],
+                "designer|displayName": "tpl"
+            },
+            "designerId": "7db6e0ce-c1d0-4807-ae36-4610928402a7"
+        },
+        {
+            "type": "Ext.tab.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dock": null,
+                "layout|flex": 1,
+                "width": null,
+                "title": "Old Pubs/Trec",
+                "activeTab": 0
+            },
+            "designerId": "f73d1b1b-f689-4dd5-a8aa-826f5a4c6b2b",
+            "cn": [
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dock": null,
+                        "html": [
+                            "HELLO BRYAN!"
+                        ],
+                        "title": "Pub"
+                    },
+                    "designerId": "5c714ef7-2a2d-4d5a-bcd6-7ed58989085f",
+                    "cn": [
+                        {
+                            "type": "Ext.tab.Tab",
+                            "reference": {
+                                "name": "tabConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "designerId": "80d14241-4bc4-47ce-b076-746491c5bc70"
+                        },
+                        {
+                            "type": "Ext.XTemplate",
+                            "reference": {
+                                "name": "tpl",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "implHandler": null,
+                                "designer|displayName": "tpl"
+                            },
+                            "designerId": "668d941b-60b4-4717-a3bc-b7c602b89a15"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "html": [
+                            "I'M HERE!"
+                        ],
+                        "title": "Trec"
+                    },
+                    "designerId": "7a8bd1fa-f06d-4b2f-8be7-1024ce7e2848",
+                    "cn": [
+                        {
+                            "type": "Ext.tab.Tab",
+                            "reference": {
+                                "name": "tabConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "designerId": "794f1877-4aff-4a68-a030-09be56f2def1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.tab.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": 1,
+                "title": "New Pubs/Trec",
+                "activeTab": 0
+            },
+            "designerId": "bc9228e4-0e62-4be1-9f52-58e6b309a44d",
+            "cn": [
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "html": [
+                            "WHATS UP!"
+                        ],
+                        "title": "Pub"
+                    },
+                    "designerId": "b2756bb6-d7c6-4364-a1ea-a25dc4d25d5e",
+                    "cn": [
+                        {
+                            "type": "Ext.tab.Tab",
+                            "reference": {
+                                "name": "tabConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "designerId": "ba2a6d76-6bb4-42ed-8293-a92b48a2eff2"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "html": [
+                            "YO!"
+                        ],
+                        "title": "Trec"
+                    },
+                    "designerId": "d6ba253f-0350-45d5-a2c9-9fcfc3ee1849",
+                    "cn": [
+                        {
+                            "type": "Ext.tab.Tab",
+                            "reference": {
+                                "name": "tabConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "designerId": "85d703f5-568c-4692-9252-a2e155cddf23"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

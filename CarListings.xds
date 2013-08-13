@@ -1,0 +1,48 @@
+{
+    "name": "CarListings",
+    "settings": {
+        "spacesToIndent": 4,
+        "lineEnding": "LF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "urlPrefix": "http://localhost/CarListings",
+        "exportPath": "/Applications/xampp/xamppfiles/htdocs",
+        "buildShouldOverwriteIndex": true
+    },
+    "xdsVersion": "2.2.2",
+    "xdsBuild": 991,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000503,
+    "framework": "ext42",
+    "topInstanceFileMap": {
+        "d8db4a95-519b-40e0-8aee-eddfcc6c0a80": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        },
+        "b42694fb-b0f0-40f6-a06f-859ee4d0d2d1": {
+            "paths": [
+                "metadata/view/CarListings",
+                "app/view/override/CarListings.js",
+                "app/view/CarListings.js",
+                "app/view/Viewport.js"
+            ],
+            "className": "CarListings"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "b42694fb-b0f0-40f6-a06f-859ee4d0d2d1"
+        ],
+        "store": [],
+        "controller": [],
+        "model": [],
+        "resource": [
+            "d8db4a95-519b-40e0-8aee-eddfcc6c0a80"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}
